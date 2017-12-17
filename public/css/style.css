@@ -1,0 +1,32 @@
+body {
+    background-color: white
+}
+
+.header {
+    height: 8rem;
+    background-color: #3379b7
+}
+
+.logo {
+    color: white;
+    font-sizE: 3rem;
+    padding: 1.5rem 2rem
+}
+
+.home {
+    float: right;
+    padding: 1.5rem;
+    color: white;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem
+}
+
+.home a {
+    text-decoration: none;
+    color: white
+}
+
+.home a:hover {
+    color: white
+}

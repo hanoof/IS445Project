@@ -1,0 +1,21 @@
+{
+    "name": "hanoof",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "~1.15.1",
+        "bower": "^1.7.9",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.2.0",
+        "ejs": "~2.4.1",
+        "express": "~4.13.4",
+        "express-session": "^1.13.0",
+        "morgan": "~1.7.0",
+        "nodemon": "^1.12.1",
+        "querystring": "^0.2.0",
+        "serve-favicon": "~2.3.0"
+    }
+}

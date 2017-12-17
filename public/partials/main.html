@@ -1,0 +1,32 @@
+<div class="header">
+    <div class="logo">
+        My Contacts
+    </div>
+</div>
+<div class="container">
+    <h2>My Contacts</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action Items</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in allContacts">
+                <td>{{item.name}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.phone}}</td>
+                <td>
+                    <button type="button" class="btn btn-primary" ng-click="editContact(item)">Edit</button>
+                    <button type="button" class="btn btn-danger" ng-click="deleteContact(item)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="/#addContact">
+        <button type="button" class="btn btn-primary">Add Contact</button>
+    </a>
+</div>
